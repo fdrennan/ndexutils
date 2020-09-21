@@ -3,5 +3,10 @@
 language: R
 cache: packages
 
+jobs:
+  build:
+    docker:
+      - image: fdrennan/environ:dev
+
 after_success:
     - Rscript -e 'covr::codecov()'
