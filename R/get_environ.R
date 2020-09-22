@@ -1,4 +1,7 @@
+#' get_environ
+#' @importFrom utils download.file
 #' @importFrom fs dir_exists dir_create
+#' @param base_folder A folder to create if it doesn't exist to store environ data
 #' @export get_environ
 get_environ <- function(base_folder = 'environ_files') {
 
