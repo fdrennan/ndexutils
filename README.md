@@ -13,3 +13,20 @@ Packages:
 #### [biggr](https://github.com/fdrennan/biggr)
 #### [ndexssh](https://github.com/fdrennan/ndexssh)
 #### [ndexrstrator](https://github.com/fdrennan/ndexrstrator)
+
+## Installation
+```
+renv::install('fdrennan/ndexutils')
+# OR
+devtools::install_github('fdrennan/ndexutils')
+```
+
+```{r}
+Sys.setenv(NDEXR_VERBOSE = 'true')
+name = 'Freddy'
+ndex_glue_message('Hello {name}') # use glue and message at the same time
+ndex_glue_system('echo {name}') # use glue, message, system on same string
+```
+
+
+
