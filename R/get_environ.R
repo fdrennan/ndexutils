@@ -12,12 +12,12 @@ get_environ <- function(base_folder = 'environ_files') {
   )
 
   download.file(
-    url = 'https://raw.githubusercontent.com/fdrennan/environ/7a40cc327a9547a31a4abe1593973b4822583f0e/main.R',
+    url = 'https://raw.githubusercontent.com/fdrennan/environ/master/main.R',
     destfile = file.path(base_folder, 'main.R')
   )
 
   download.file(
-    url = 'https://raw.githubusercontent.com/fdrennan/environ/7a40cc327a9547a31a4abe1593973b4822583f0e/.Renviron.docker',
+    url = 'https://raw.githubusercontent.com/fdrennan/environ/master/.Renviron.docker',
     destfile = file.path(base_folder, '.Renviron.docker')
   )
 }

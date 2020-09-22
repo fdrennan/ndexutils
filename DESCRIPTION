@@ -1,7 +1,7 @@
 Package: ndexutils
 Type: Package
 Title: Provides various helper functions
-Version: 0.1.0
+Version: 0.1.1
 Author: Freddy Drennan
 Maintainer: Freddy Drennan <drennanfreddy@gmail.com>
 Description: Various helper functions that I commonly use.
