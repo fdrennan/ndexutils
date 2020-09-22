@@ -1,8 +1,9 @@
 #!/bin/bash
 
-git checkout master
 git add --all
-git commit -m 'Lazy update'
+git commit -m 'update'
+git push origin master
+git checkout master
 git pull origin master
 git push origin master
 git reset --hard
